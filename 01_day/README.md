@@ -30,15 +30,17 @@
 - [installation (osx)]()
 - [installation (windows)]()
 - [Python and Git Bash(windows)]()
-- [organizing files (practice)]()
-- [running Python]()
-- [testing Python]()
+- [organizing files (practice)](./files/organize_files/README.md)
+- [running Python](./files/running_python/README.md)
+  - the Python shell
+  - Python files
+- [testing Python](./files/testing_python/README.md)
 
 
 ## Python Fundamentals
 
-- [recognize Python (optional)]()
-- [Python syntax](python_syntax.py)
+- [recognize Python (optional)](./files/recognize_python/README.md)
+- [Python syntax](./files/python_syntax/README.md)
   - Indentation and line-endings
   - What is a code block?
   - `pass`
