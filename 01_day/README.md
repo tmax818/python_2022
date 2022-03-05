@@ -1,0 +1,81 @@
+# Day 1
+
+- [recognize Python (optional)]()
+- [Python syntax](python_syntax.py)
+  - Indentation and line-endings
+  - What is a code block?
+  - `pass`
+- [data types](data_types.py)
+  - Primitive data types
+    - booleans
+    - numbers
+    - strings
+  - composite types
+    - tuples
+    - lists
+    - dictionaries
+  - common functions
+- [numbers](numbers.py)
+  - numbers
+  - type
+  - conversion
+  - random number
+- [strings](strings.py)
+  - string literals
+  - concatenating strings and variables with the `print` function
+  - type casting or explicit type conversion
+  - string interpolation
+  - f-strings(literal string interpolation)
+  - `string.format()`
+  - `%`-formatting
+  - built-in string methods
+  - commonly used string methods:
+- [list](lists.py)
+  - accessing values
+  - manipulating lists
+  - list built-in functions
+  - some built-in functions for sequences
+  - list built-in methods
+  - commonly used list methods
+- [tuples](tuples.py)
+  - built-in tuple functions
+  - built-in sequence functions
+  - tuple as `return` value
+  - why tuples?
+- [hello world (practice)](hello_world.py)
+- [dictionaries](dictionaries.py)
+  - creating dictionaries
+  - accessing values
+  - removing values
+  - nested dictionaries
+  - built-in functions and methods
+- [conditional statements](conditional_statements.py)
+  - comparison and logical operators
+- [loops](loops)
+  - `for` loops with `range()`
+    - `range` with 1 argument
+    - `range` with 2 arguments
+    - `range` with 3 arguments
+  - `for` loops through strings
+  - `for` loops through lists
+  - `for` loops through tuples
+  - `for` loops through dictionaries
+  - `While` loops
+  - `else`
+  - loop control
+    - `break`
+    - `continue`
+- [for loop basics I (core)](for_loop_basics1.py)
+- [functions](functions.py)
+  - syntax
+  - parameters and arguments
+  - returning values
+- [default parameters & named arguments](def_params_named_arg.py)
+  - default parameters
+  - named arguments
+- [debugging in Python](debugging.py)
+- [function basics 1 (practice)](fun_basics1.py)
+- [function basics 2 (practice)](fun_basics2.py)
+- [function Int 1 (core)](fun_int1.py)
+
+  
