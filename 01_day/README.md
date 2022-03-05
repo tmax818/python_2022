@@ -1,5 +1,7 @@
 # Day 1
 
+## Python Fundamentals
+
 - [recognize Python (optional)]()
 - [Python syntax](python_syntax.py)
   - Indentation and line-endings
@@ -78,4 +80,3 @@
 - [function basics 2 (practice)](fun_basics2.py)
 - [function Int 1 (core)](fun_int1.py)
 
-  
