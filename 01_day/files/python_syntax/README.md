@@ -1,5 +1,7 @@
 # Python Syntax
 
+> Everything in Python is an object.
+
 ## Indentation and line-endings
 
 - indentation indicates which lines go with which **code block**

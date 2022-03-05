@@ -44,7 +44,7 @@
   - Indentation and line-endings
   - What is a code block?
   - `pass`
-- [data types](data_types.py)
+- [data types](./files/data_types/README.md)
   - Primitive data types
     - booleans
     - numbers
@@ -54,12 +54,12 @@
     - lists
     - dictionaries
   - common functions
-- [numbers](numbers.py)
+- [numbers](./files/numbers/README.md)
   - numbers
   - type
   - conversion
   - random number
-- [strings](strings.py)
+- [strings](./files/strings/README.md)
   - string literals
   - concatenating strings and variables with the `print` function
   - type casting or explicit type conversion
@@ -69,26 +69,26 @@
   - `%`-formatting
   - built-in string methods
   - commonly used string methods:
-- [list](lists.py)
+- [list](./files/lists/README.md)
   - accessing values
   - manipulating lists
   - list built-in functions
   - some built-in functions for sequences
   - list built-in methods
   - commonly used list methods
-- [tuples](tuples.py)
+- [tuples](./files/tuples/README.md)
   - built-in tuple functions
   - built-in sequence functions
   - tuple as `return` value
   - why tuples?
-- [hello world (practice)](hello_world.py)
-- [dictionaries](dictionaries.py)
+- [hello world (practice)](./files/hello_world.py)
+- [dictionaries](./files/dictionaries/README.md)
   - creating dictionaries
   - accessing values
   - removing values
   - nested dictionaries
   - built-in functions and methods
-- [conditional statements](conditional_statements.py)
+- [conditionals](./files/conditionals/README.md)
   - comparison and logical operators
 - [loops](loops)
   - `for` loops with `range()`
