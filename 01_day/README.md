@@ -1,5 +1,40 @@
 # Day 1
 
+## Introduction and Setup
+
+- [course overview]()
+  - course outline
+    - part 1: Python + Python OOP
+    - part 2: Flask + mySQL
+    - part 3: Belt (red and/or black)
+    - part 4: AJAX
+    - part 5: Belt Retake + Projects
+- [course completion]()
+  - ultimate goal: earn a belt
+  - reading vs doing
+- [Why Python?]()
+  - Python and web development
+  - Why Python?
+    - readability
+    - libraries
+    - community
+    - scope
+    - ease
+  - Why Python is Good for you
+    - popular
+    - shallow learning curve
+    - minimal setup
+    - understandable
+    - fast development cycle
+  - Python versions
+- [installation (osx)]()
+- [installation (windows)]()
+- [Python and Git Bash(windows)]()
+- [organizing files (practice)]()
+- [running Python]()
+- [testing Python]()
+
+
 ## Python Fundamentals
 
 - [recognize Python (optional)]()
