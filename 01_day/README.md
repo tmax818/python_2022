@@ -109,11 +109,11 @@
   - syntax
   - parameters and arguments
   - returning values
-- [default parameters & named arguments](def_params_named_arg.py)
+- [default parameters & named arguments](./files/def_params_named_args/README.md)
   - default parameters
   - named arguments
-- [debugging in Python](debugging.py)
-- [function basics 1 (practice)](fun_basics1.py)
-- [function basics 2 (practice)](fun_basics2.py)
-- [function Int 1 (core)](fun_int1.py)
+- [debugging in Python](./files/debugging/README.md)
+- [function basics 1 (practice)](./files/fun_basics1.py)
+- [function basics 2 (practice)](./files/fun_basics2.py)
+- [function Int 1 (core)](./files/fun_int1.py)
 
