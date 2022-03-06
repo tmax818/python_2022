@@ -90,7 +90,7 @@
   - built-in functions and methods
 - [conditionals](./files/conditionals/README.md)
   - comparison and logical operators
-- [loops](loops)
+- [loops](./files/loops/README.md)
   - `for` loops with `range()`
     - `range` with 1 argument
     - `range` with 2 arguments
@@ -105,7 +105,7 @@
     - `break`
     - `continue`
 - [for loop basics I (core)](for_loop_basics1.py)
-- [functions](functions.py)
+- [functions](./files/functions/README.md)
   - syntax
   - parameters and arguments
   - returning values

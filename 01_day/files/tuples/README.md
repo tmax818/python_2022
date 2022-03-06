@@ -23,3 +23,9 @@ dog = dog + ("domestic",)
 #("Canis Familiaris", "Dog", "carnivore", 12, "domestic")
 ```
 
+## built-in tuple functions
+
+## tuple as `return` values
+
+## why tuples?
+
