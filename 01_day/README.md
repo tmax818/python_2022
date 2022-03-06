@@ -104,7 +104,7 @@
   - loop control
     - `break`
     - `continue`
-- [for loop basics I (core)](for_loop_basics1.py)
+- [for loop basics I (core)](./files/for_loop_basics1.py)
 - [functions](./files/functions/README.md)
   - syntax
   - parameters and arguments
