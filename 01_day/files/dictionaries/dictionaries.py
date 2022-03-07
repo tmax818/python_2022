@@ -14,28 +14,29 @@ person = {'name': 'Tyler', 'age': 39, 'hobbies': ['coding', 'sleeping']}
 
 ## TODO add to hobbies list in the person_list:
 
-# print(person_list[2])
-# person_list[2].append('gaming')
-# print(person_list[2])
+print(person_list[2])
+person_list[2].append('gaming')
+print(person_list[2])
 
-## add to hobbies list in person dictionary:
+# TODO add to hobbies list in person dictionary:
 
-# print(person['hobbies'])
-# person['hobbies'].append('gaming')
-# print(person['hobbies'])
+print(person['hobbies'])
+person['hobbies'].append('gaming')
+print(person['hobbies'])
 
-# print(person)
-# person['address'] = address
-# print(person)
+print(person)
+person['address'] = address
+print(person)
 
 ## TODO remove values with pop('key')
-# person.pop('age')
-# print(person)
+person.pop('age')
+print(person)
 
 ## TODO remove values with del
-# del person['hobbies']
-# print(person)
+del person['hobbies']
+print(person)
 
 # TODO nested dictionaries
+
 address = {'street': '123 Main', 'city': 'Santa Clarita', 'state': 'CA', 'zip': 91355 }
 person['address'] = address
