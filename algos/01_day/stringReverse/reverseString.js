@@ -17,7 +17,9 @@ const expected2 = "god";
  * @param {string} str String to be reversed.
  * @returns {string} The given str reversed.
  */
-function reverseString(str_param) {}
+function reverseString(str_param) {
+
+}
 
 
 

@@ -1,10 +1,10 @@
 var assert = require('assert');
-const file = require('./../acronymize')
-console.log(file)
+const file = require('./acronymize')
 
 
-describe('Case Insensitive String', function () {
-  describe('', function () {
+
+describe('Day 01', function () {
+  describe('acronymize', function () {
     it('should return true for "ABC" and "abc".', function () {
       assert.equal(testFunc("ABC", "abc"), true);
     });

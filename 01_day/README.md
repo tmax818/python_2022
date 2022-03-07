@@ -2,38 +2,17 @@
 
 ## Introduction and Setup
 
-- [course overview]()
-  - course outline
-    - part 1: Python + Python OOP
-    - part 2: Flask + mySQL
-    - part 3: Belt (red and/or black)
-    - part 4: AJAX
-    - part 5: Belt Retake + Projects
+- [introduction]()
+- [course overview](./files/course_overview/README.md)
 - [course completion]()
   - ultimate goal: earn a belt
   - reading vs doing
-- [Why Python?]()
-  - Python and web development
-  - Why Python?
-    - readability
-    - libraries
-    - community
-    - scope
-    - ease
-  - Why Python is Good for you
-    - popular
-    - shallow learning curve
-    - minimal setup
-    - understandable
-    - fast development cycle
-  - Python versions
+- [Why Python?](./files/why_python/README.md)
 - [installation (osx)]()
 - [installation (windows)]()
 - [Python and Git Bash(windows)]()
 - [organizing files (practice)](./files/organize_files/README.md)
 - [running Python](./files/running_python/README.md)
-  - the Python shell
-  - Python files
 - [testing Python](./files/testing_python/README.md)
 
 

@@ -21,7 +21,9 @@ const expected3 = false;
  * @returns {boolean} If the strings are equal or not.
  */
 
-function caseInsensitiveStringCompare(strA, strB) {}
+function caseInsensitiveStringCompare(strA, strB) {
+    return strA.toLocaleLowerCase() === strB.toLocaleLowerCase()
+}
 
 
 

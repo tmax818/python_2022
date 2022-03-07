@@ -1,7 +1,7 @@
 var assert = require('assert');
 const testFunc = require('./../reverseString').reverseString
 const args = require('./../reverseString')
-console.log(testFunc)
+
 
 
 describe('Reverse String', function () {

@@ -1,7 +1,5 @@
 var assert = require('assert');
-const testFunc = require('./../caseInsensitiveStringCompare').caseInsensitiveStringCompare
-console.log(testFunc)
-
+const testFunc = require('./caseInsensitiveStringCompare').caseInsensitiveStringCompare
 
 describe('Case Insensitive String', function () {
   describe('', function () {
@@ -10,17 +8,11 @@ describe('Case Insensitive String', function () {
     });
   });
 
-
-
-
   describe('', function () {
     it('should return false for "ABC" and "abd".', function () {
       assert.equal(testFunc("ABC", "abd"), false);
     });
   });
-
-
-
 
   describe('', function () {
     it('should return false for "ABC" and "bc".', function () {
