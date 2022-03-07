@@ -1,22 +1,14 @@
 ## functions.py
 ## demo
 
-def function_name(parameter):
-    ## do something useful
-    print(parameter)
 
-# function invocation
+## TODO syntax
 
-# function_name('argument')
 
-## returning values
 
-def seven(lucky_number):
-    print(lucky_number)
-    return 6 + 1
+## TODO parameters and arguments
 
-return_value = seven(42)
 
-print(return_value)
+## TODO returning values
 
-# a function is what it returns
+

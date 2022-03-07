@@ -2,12 +2,16 @@ from pprint import pprint
 ## lists.py
 ## demo
 
+## TODO Accessing Values
+
 # x = [1,2,3,4,5,6]
 # print("x before append", x)
 # x.append(7)
 # print("x after append", x)
 
-## list slicing
+## TODO Manipulating Lists
+
+### TODO Python list slicing
 
 # start = 0 # inclusive
 # stop = len(x)# exclusive
