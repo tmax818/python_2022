@@ -95,4 +95,16 @@ for person in data:
     print(f"{person['name']} is {person['age']} years old.")
 ```
 # While Loops
+```py
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
+
+## loop control
+
+- `break` - exit the loop usually when a condition is met.
+- `continue` - returns control to the beginning of the loop.
+
 

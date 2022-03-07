@@ -66,3 +66,23 @@ data = [
 
 for person in data:
     print(f"{person['name']} is {person['age']} years old.")
+
+## TODO `while` loops
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+## TODO loop control
+
+
+
+while True:
+    guess = int(input("guess a number: "))
+    if guess == 42:
+        break
+    if guess == 13:
+        continue
+    print("You didn't guess 13")
+
