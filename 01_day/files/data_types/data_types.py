@@ -1,8 +1,6 @@
 
 # booleans
 
-from re import A
-
 
 is_hungry = True
 print(type(is_hungry))
