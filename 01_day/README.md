@@ -5,8 +5,6 @@
 - [introduction]()
 - [course overview](./files/course_overview/README.md)
 - [course completion]()
-  - ultimate goal: earn a belt
-  - reading vs doing
 - [Why Python?](./files/why_python/README.md)
 - [installation (osx)]()
 - [installation (windows)]()
@@ -20,24 +18,9 @@
 
 - [recognize Python (optional)](./files/recognize_python/README.md)
 - [Python syntax](./files/python_syntax/README.md)
-  - Indentation and line-endings
-  - What is a code block?
-  - `pass`
 - [data types](./files/data_types/README.md)
-  - Primitive data types
-    - booleans
-    - numbers
-    - strings
-  - composite types
-    - tuples
-    - lists
-    - dictionaries
-  - common functions
+
 - [numbers](./files/numbers/README.md)
-  - numbers
-  - type
-  - conversion
-  - random number
 - [strings](./files/strings/README.md)
   - string literals
   - concatenating strings and variables with the `print` function

@@ -21,7 +21,7 @@ print(type(int_to_float))
 print(type(float_to_int))
 print(type(int_to_complex))
 
-# Random Nummber
+# Random Number
 
 import random
 from pprint import pprint

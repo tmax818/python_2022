@@ -24,8 +24,8 @@ message = "And now for something completely different!"
 ### Composite
 
 ## [tuples](../tuples/README.md)
-## lists
-## dictionaries
+## [lists](../lists/README.md)
+## [dictionaries](../dictionaries/README.md)
 
 ### Common Functions
 
