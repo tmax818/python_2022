@@ -1,0 +1,35 @@
+<html>
+  <head>
+
+    <link rel="stylesheet" href="./../dist/reveal.css">
+    <link rel="stylesheet" href="./../dist/theme/white.css">
+    <link rel="stylesheet" href="./../plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="./../plugin/reveal.js-fullscreen-code/reveal.js-fullscreen-code.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+    <section data-markdown="slides.md"
+        data-separator="^---"
+        data-separator-vertical="--">
+    </section>
+    <section>
+      <img src="./../images/Screen_Shot_2021-01-29_at_1.39.33_PM.png" alt="" class="r-stretch">
+    </section>
+
+      </div>
+    </div>
+    <script src="./../dist/reveal.js"></script>
+    <script src="./../plugin/highlight/highlight.js"></script>
+    <script src="./../plugin/markdown/markdown.js"></script>
+    <script>
+      Reveal.initialize({
+
+        plugins: [ RevealMarkdown, RevealHighlight ],
+        fragments: true,
+        controlsTutorial: true,
+      });
+    </script>
+  </body>
+</html>
