@@ -61,6 +61,10 @@ Databases allow us to persist our data.
 ![](../images/db-sample.png)
 
 ---
+<!-- .slide:data-background="#000000" -->
+# Database Relations
+
+---
 ## one to one
 --
 ## one to one
@@ -161,6 +165,9 @@ YAGNI
 - format `YYYY-MM-DD hh:mm:ss`
 ---
 ## simple blog
+--
+![](./files/simple_blog/blog.svg)
+  <!-- .element: class="r-stretch" " -->
 ---
 ## likes
 ---

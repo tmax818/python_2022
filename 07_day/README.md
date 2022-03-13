@@ -1,9 +1,14 @@
-# Day 6
+# Day 7
+## MySQL Queries
 
-## ERD Lessons
+- [sql](./files/sql/README.md)
+- [connecting_to_mysql](./files/connecting_to_mysql/README.md)
+- [import](./files/import/README.md)
 
-- [overview](./files/overview/README.md)
-- [database_design](./files/database_design/README.md)
+
+- [joins](./files/joins/README.md)
+
+
 - [one_to_one](./files/one_to_one/README.md)
 - [one_to_many](./files/one_to_many/README.md)
 - [many_to_many](./files/many_to_many/README.md)

@@ -8,9 +8,9 @@
 ### Intro to SQL
 <!-- .slide:data-background="#000000" -->
 --
-![](../images/sql-icon.png)
---
 ### Database and SQL
+![](../images/sql-icon.png) 
+
 
 ---
 ## Connecting to MySQL
@@ -88,6 +88,9 @@ VALUES('column1_value', 'column2_value');
 ## Functions
 ---
 ## Joins
+--
+>We JOIN two tables on the ids (i.e. the primary key and the foreign key) that match each other. This means that we can't JOIN tables together that don't have a relationship with each other (e.g. One to One, One to Many, Many to Many).
+
 ---
 ## Left Joins
 ---
