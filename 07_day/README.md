@@ -4,32 +4,23 @@
 - [sql](./files/sql/README.md)
 - [connecting_to_mysql](./files/connecting_to_mysql/README.md)
 - [import](./files/import/README.md)
-
-
+- [select](./files/select/README.md)
+- [insert](./files/insert/README.md)
+- [update](./files/update/README.md)
+- [delete](./files/delete/README.md)
+- [functions](./files/functions/README.md)
 - [joins](./files/joins/README.md)
+- [left_join](./files/left_join/README.md)
+- [export](./files/export/README.md)
 
 
-- [one_to_one](./files/one_to_one/README.md)
-- [one_to_many](./files/one_to_many/README.md)
-- [many_to_many](./files/many_to_many/README.md)
-- [normalization](./files/normalization/README.md)
-- [conventions](./files/conventions/README.md)
-- [data_types](./files/data_types/README.md)
-- [simple_blog](./files/simple_blog/README.md)
-- [likes](./files/likes/README.md)
-- [yelp](./files/yelp/README.md)
-- [amazon](./files/amazon/README.md)
-- [belts](./files/belts/README.md)
+- [forward_engineer](./files/forward_engineer/README.md)
+- [mysql_wb_setup_practice](./files/mysql_wb_setup_practice/README.md)
 - [users_practice](./files/users_practice/README.md)
-- [dojos_and_ninjas_core](./files/dojos_and_ninjas_core/README.md)
-- [books_core](./files/books_core/README.md)
+- [dojo_ninja_core](./files/dojo_ninja_core/README.md)
+- [books_practice](./files/books_practice/README.md)
 - [friendships_practice](./files/friendships_practice/README.md)
-
-### optional assignments
-- [event_planner_optional](./files/event_planner_optional/README.md)
-- [blogs_optional](./files/blogs_optional/README.md)
-- [user_dashboard_optional](./files/user_dashboard_optional/README.md)
-- [normalization_optional](./files/normalization_optional/README.md)
+- [mysql_countries_core](./files/mysql_countries_core/README.md)
 
 
 

@@ -46,6 +46,8 @@ Databases allow us to persist our data.
 
 >Learning the design of the database first will help us visualize what our relational databases look like, which makes it much easier to choose the actual SQL syntax.
 
+--
+
 ---
 ## database design
 --
