@@ -3,6 +3,7 @@
         "acronymize",
         "Clarita",
         "elif",
-        "fromkeys"
+        "fromkeys",
+        "mysqlconnection"
     ]
 }

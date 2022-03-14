@@ -2,25 +2,56 @@
 <!-- .slide:data-background="#000000" -->
 ---
 # ERD Lesson
+
+Note:
+
+- ERD = entity relation diagram 
 ---
 ## overview
+Note:
+10,000 foot view
 --
 ![](../images/full_stack.png)
+
+Note:
+
+- started with the front end
+- left off on Friday with backend
+- today we are adding the final piece
 --
 
 ## What is a database?
 <!-- .slide:data-background="#000000" -->
-
+Note:
+- what's a database
+- most common analogy is the spreadsheet
+- databases are made of as many tables as we need
 --
 <!-- .slide:data-background="#000000" -->
 ![](../images/spreadsheet.png)
+
+Note:
+- we use spreadsheets to store data
+- a spreadsheet is like a table in a database
 --
 ## Why not just use a spreadsheet?
+Note:
+- what if we had a million students
+- 1 million seconds in 12 days!!
 --
 ## Why MySQL and database design?
 <!-- .slide:data-background="#000000" -->
-
 ![](../images/mysql.png)
+
+Note:
+- we start with sql databases
+- in MERN we learn no-sql databases
+- a db is the backbone of your web app
+--
+![](../images/mysql-pop.png)
+
+Note:
+- dbs allow us to move beyond sessions/cookies
 --
 Databases allow us to persist our data.
 --
@@ -42,11 +73,13 @@ Databases allow us to persist our data.
 - define relationships  <!-- .element: class="fragment" -->
 
 ![](../images/books.png) <!-- .element: class="fragment" -->
+
+Note:
+- a graphical tool that generates SQL from our diagrams/ERDs
 --
 
 >Learning the design of the database first will help us visualize what our relational databases look like, which makes it much easier to choose the actual SQL syntax.
 
---
 
 ---
 ## database design
@@ -58,9 +91,14 @@ Databases allow us to persist our data.
 - one table for each real world object*  <!-- .element: class="fragment" -->
 - one column for each of the object's attributes  <!-- .element: class="fragment" -->
 - decide the relationships between the objects/tables  <!-- .element: class="fragment" -->
-
+Note:
+- normalization make extra tables
 --
 ![](../images/db-sample.png)
+
+Note:
+- first column is the id = primary key
+- the pk is how we organize/differentiate and access rows
 
 ---
 <!-- .slide:data-background="#000000" -->
@@ -73,6 +111,11 @@ Databases allow us to persist our data.
 ![](../images/one-to-one.png) <!-- .element: class="fragment" -->
 ![](../images/one-to-one2.png) <!-- .element: class="fragment" -->
 ![](../images/one-to-one3.png) <!-- .element: class="fragment" -->
+Note:
+- one or two true one-to-one
+- data privacy/security
+- foreign key = shows ownership
+- fk allows us to join tables in db
 --
 YAGNI
 
@@ -80,10 +123,13 @@ YAGNI
 ## one to many
 --
 ## one to many
-- most common
+- most common <!-- .element: class="fragment" -->
 ![](../images/one-many1.png) <!-- .element: class="fragment" -->
 ![](../images/one-many2.png) <!-- .element: class="fragment" -->
-
+Note:
+- a customer has many orders
+- order in a restaurant or amazon
+- who has the most orders of the three customers?
 ---
 ## many to many
 --
@@ -91,6 +137,8 @@ YAGNI
 ![](../images/m-m1.png) <!-- .element: class="fragment" -->
 ![](../images/m-m2.png) <!-- .element: class="fragment" -->
 ![](../images/m-m3.png) <!-- .element: class="fragment" -->
+Note:
+- many-to-many === join table
 --
 - create a connector table(aka join table)  <!-- .element: class="fragment" -->
 - can be confusing, talk out the relationship out loud
@@ -105,23 +153,29 @@ YAGNI
 # **It is possible to take normalization to an extreme.**
 --
 ## The three forms:
+Note:
+- cumulative
+- they build on each other
 --
 ### First Form
 - one column, one value  <!-- .element: class="fragment" -->
 
 ![](../../../images/one-to-one.png)  <!-- .element: class="fragment" -->
+![](../../../images/one-to-one4.png)  <!-- .element: class="fragment" -->
 --
 ### Second Form
 
 - each column should have a unique value  <!-- .element: class="fragment" -->
   - except for keys  <!-- .element: class="fragment" -->
   - This form can be taken too far!!!!  <!-- .element: class="fragment" -->
+![](../images/one-many4.png)
 --
 
 ### Third Form
 - no column should depend on another  <!-- .element: class="fragment" -->
   - except for keys  <!-- .element: class="fragment" -->
   - This form can be taken too far!!!!  <!-- .element: class="fragment" -->
+![](../../../images/one-to-one4.png)  <!-- .element: class="fragment" -->
 ---
 ## conventions
 --
