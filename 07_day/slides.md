@@ -6,7 +6,16 @@
 ## SQL
 --
 ### Intro to SQL
-<!-- .slide:data-background="#000000" -->
+<!-- .slide:data-background="#999" -->
+--
+<!-- .slide:data-background="#999" -->
+### Intro to SQL
+- Structured Query Language <!-- .element: class="fragment" -->
+- SQL statments aka queries can: <!-- .element: class="fragment" -->
+  - SELECT <!-- .element: class="fragment" -->
+  - INSERT <!-- .element: class="fragment" -->
+  - UPDATE <!-- .element: class="fragment" -->
+  - DELETE <!-- .element: class="fragment" -->
 --
 ### Database and SQL
 ![](../images/sql-icon.png) 
@@ -14,8 +23,21 @@
 
 ---
 ## Connecting to MySQL
+--
+- **MySQL server** is a database server listening on `localhost`
+- we also have a web server listening on `localhost`
+- They are listening on different ports
+--
 ---
 ## Import
+--
+## Import
+
+### two ways<!-- .element: class="fragment" -->
+
+- copy and paste a sql file <!-- .element: class="fragment" -->
+- forward engineer an ERD diagram <!-- .element: class="fragment" -->
+
 ---
 ## `SELECT`
 --
@@ -90,6 +112,41 @@ VALUES('column1_value', 'column2_value');
 ## Joins
 --
 >We JOIN two tables on the ids (i.e. the primary key and the foreign key) that match each other. This means that we can't JOIN tables together that don't have a relationship with each other (e.g. One to One, One to Many, Many to Many).
+--
+### one to one
+
+```sql
+SELECT * FROM customers 
+JOIN addresses ON addresses.id = customers.address_id;
+```  
+<!-- .element: class="fragment" -->
+![](../images/one-to-one4.png)  <!-- .element: class="fragment" -->
+![](../images/one-to-one.gif)  <!-- .element: class="fragment" -->
+
+--
+### one to many
+```sql
+SELECT * FROM orders 
+JOIN customers ON customers.id = orders.customer_id;
+```  
+<!-- .element: class="fragment" -->
+![](../images/one-many4.png)  <!-- .element: class="fragment" -->
+--
+![](../images/one-many.gif)  <!-- .element: class="r-fit" -->
+--
+
+### many to many
+```sql
+SELECT * FROM orders 
+JOIN items_orders ON orders.id = items_orders.order_id 
+JOIN items ON items.id = items_orders.item_id;
+```  
+<!-- .element: class="fragment" -->
+![](../images/m-m4.png)  <!-- .element: class="fragment" -->
+--
+![](../images/m-m.gif)  <!-- .element: class="r-fit" -->
+--
+![](../images/twitter_ERD.png)
 
 ---
 ## Left Joins
