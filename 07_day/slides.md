@@ -6,12 +6,12 @@
 ## SQL
 --
 ### Intro to SQL
-<!-- .slide:data-background="#999" -->
+
 --
-<!-- .slide:data-background="#999" -->
+
 ### Intro to SQL
 - Structured Query Language <!-- .element: class="fragment" -->
-- SQL statments aka queries can: <!-- .element: class="fragment" -->
+- SQL statements aka queries can: <!-- .element: class="fragment" -->
   - SELECT <!-- .element: class="fragment" -->
   - INSERT <!-- .element: class="fragment" -->
   - UPDATE <!-- .element: class="fragment" -->
@@ -41,15 +41,12 @@
 ---
 ## `SELECT`
 --
-![](../images/twitter_ERD.png)
---
-<!-- .slide:data-background="#001100" -->
 ```sql
 SELECT * FROM table_names; 
 ```
 - select everything from table_names <!-- .element: class="fragment" -->
 --
-<!-- .slide:data-background="#000600" -->
+
 ```sql
 SELECT column_name FROM table_names; 
 ```
@@ -61,6 +58,8 @@ SELECT column_name1, column_name2 FROM table_names;
 ```
 - select column_name1 and column_name2 from table_names <!-- .element: class="fragment" -->
 --
+![](../images/twitter_ERD.png)
+--
 ### `SELECT` with Conditionals
 --
 <!-- .slide:data-background="#000600" -->
@@ -71,9 +70,75 @@ FROM table_names
 WHERE id = 2;
 ```
 
-- select the record from column_name1 from table_names with an id of 2 <!-- .element: class="fragment" -->
+- select the record in column_name1 from table_names with an id of 2. <!-- .element: class="fragment" -->
 --
+<!-- .slide:data-background="#000600" -->
 
+```sql
+SELECT column_name1 
+FROM table_names 
+WHERE id = 2 OR id = 3;
+```
+
+- select the record in column_name1 from table_names with an id of 2 or 3. <!-- .element: class="fragment" -->
+--
+<!-- .slide:data-background="#000600" -->
+
+```sql
+SELECT *
+FROM table_names 
+WHERE column_name LIKE "%e";
+```
+
+- select everything from table_names in column name that ends with e. <!-- .element: class="fragment" -->
+--
+<!-- .slide:data-background="#000600" -->
+
+```sql
+SELECT *
+FROM table_names 
+WHERE column_name LIKE "M%";
+```
+
+- select everything from table_names in column name that starts with M. <!-- .element: class="fragment" -->
+--
+<!-- .slide:data-background="#000600" -->
+
+```sql
+SELECT *
+FROM table_names 
+WHERE column_name <> "M%";
+```
+
+- select everything from table_names in column name that does not start with M. <!-- .element: class="fragment" -->
+--
+### `SELECT` with Sorting
+--
+<!-- .slide:data-background="#000600" -->
+```sql
+SELECT *
+FROM table_names 
+ORDER BY column_name DESC;
+```
+- select everything from table_names order by column name in descending order. <!-- .element: class="fragment" -->
+--
+<!-- .slide:data-background="#000600" -->
+```sql
+SELECT *
+FROM table_names 
+ORDER BY column_name ASC;
+```
+- select everything from table_names order by column name in ascending order. <!-- .element: class="fragment" -->
+
+### `SELECT` with limit and offset
+--
+<!-- .slide:data-background="#000600" -->
+```sql
+SELECT *
+FROM table_names 
+LIMIT 3;
+```
+- select the first three table_names <!-- .element: class="fragment" -->
 
 ---
 ## `INSERT`
@@ -146,10 +211,25 @@ JOIN items ON items.id = items_orders.item_id;
 --
 ![](../images/m-m.gif)  <!-- .element: class="r-fit" -->
 --
-![](../images/twitter_ERD.png)
 
 ---
 ## Left Joins
+--
+![](../images/twitter_ERD.png)
+--
+![](../images/twitter_ERD.png)  <!-- .element: class="r-fit" -->
+What query would you run to get all tweets from the user with the ide of 1?
+<!-- .element: class="r-fit" -->
+
+<section data-auto-animate>
+  <pre data-id="code-animation"><code data-trim data-line-numbers>
+    let planets = [
+      { name: 'mars', diameter: 6779 },
+      { name: 'earth', diameter: 12742 },
+      { name: 'jupiter', diameter: 139820 }
+    ]
+  </code></pre>
+</section>
 ---
 ## Export
 ---

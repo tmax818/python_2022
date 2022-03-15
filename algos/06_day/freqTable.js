@@ -45,8 +45,8 @@ function frequencyTableBuilder(arr) {
 }
 
 let test1 = frequencyTableBuilder(arr1)
-// console.log(test1)
-// console.log(expected1)
+console.log(test1)
+console.log(expected1)
 
 
 
